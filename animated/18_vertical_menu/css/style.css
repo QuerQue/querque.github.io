@@ -1,0 +1,44 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+
+.kontener {
+	width: 1000px;
+	margin: 100px auto;
+}
+
+.menu {
+	width: 200px;
+}
+
+.menu_1 {
+	background-color: #000;
+	color: #fff;
+	font-size: 120%;
+	padding: 2px 0px 7px 10px;
+	border-bottom: 1px solid #fff;
+	font-weight: bold;
+	family-font: Georgia;
+	cursor: pointer; 	
+}
+
+.menu_2 {
+	display: none;
+}
+
+.menu_2 a {
+	background-color: #ff0000;
+	display: block;
+	color: #fff;
+	padding-left: 10px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.menu_2 a:hover {
+	color: #ff0000;
+	background-color: #000;
+}
+

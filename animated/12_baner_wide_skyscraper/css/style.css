@@ -1,0 +1,39 @@
+#box {
+	width: 160px;
+	height: 600px;
+	margin: 100px auto;
+	border: 1px solid #c0c0c0;
+	overflow: auto;
+}
+
+#logo {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:160px;
+	height:90px;
+}
+
+#slogan {
+	position:relative;
+	top:0px;
+	left:0px;	
+	width:160px;
+	height:270px;
+}
+
+#text {
+	position:relative;
+	top:0px;
+	left:0px;
+	width:160px;
+	height:190px;
+}
+
+#button {
+	position: relative;
+	width:40px;
+	height:40px;
+	top: 0px;
+	left: 60px;
+}

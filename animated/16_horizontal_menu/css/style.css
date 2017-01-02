@@ -1,0 +1,80 @@
+body {
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+img {
+  margin:0px;
+  padding:0px;
+  border:0px;
+}
+
+a {
+  font-family:Georgia;
+  font-size:20pt;
+  color:#ffffff;
+  text-decoration:none;
+}
+
+a:hover {
+  font-family:Georgia;
+  font-size:20pt;
+  color:#ff0000;
+  text-decoration:none;
+}
+
+div#menu {
+	width:770px;
+	height:200px;
+	margin-top:100px;
+  margin-bottom:0px;
+  margin-right:auto;
+  margin-left:auto;
+  padding:0px;
+}
+
+div#menu ul {
+  width:1000px;
+  height:200px;
+	margin:0px;
+	padding:0px;
+	border:0px;
+	list-style-type:none;
+	display:block;
+}
+
+div#menu ul li {
+	float:left;
+}
+
+div#menu ul li a {
+	width:80px;
+	height:200px;
+	border-right:2px solid #ffffff;
+	display:block;
+}
+
+#menu ul li#button_1 a {
+	background: url(../img/przycisk_1.jpg);
+}
+
+#menu ul li#button_2 a {
+	background: url(../img/przycisk_2.jpg);
+}
+
+#menu ul li#button_3 a {
+	background: url(../img/przycisk_3.jpg);
+}
+
+#menu ul li#button_4 a {
+	background: url(../img/przycisk_4.jpg);
+}
+
+#menu ul li#button_5 a {
+	background: url(../img/przycisk_5.jpg);
+}
+
+#menu ul li#button_6 a {
+	background: url(../img/przycisk_6.jpg);
+}
