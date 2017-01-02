@@ -1,0 +1,154 @@
+body{
+	min-width: 960px;
+	color: #fff;
+	background: #413f3b url("images/bg.jpg");
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 90%;
+	margin: 0px;
+	text-align: center;
+}
+
+.container_12 {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+.grid_5, .grid_6, .grid_7, .grid_3, .grid_12{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grid_3{
+	width: 220px;
+	float: left;
+}
+
+.grid_5{
+	width: 380px;
+	float: left;
+}
+
+.grid_7 {
+	width: 540px;
+	float: left;
+}
+
+.grid_6 {
+	width: 460px;
+	float: left;
+}
+
+.grid_12{
+	width: 940px;
+	float: left;
+}
+
+h1{
+	position:relative;
+	left: 480px;
+	font-family: QuicksandBook, Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 240%;
+	margin-top: 140px;
+}
+
+h2 { 
+	color: #807c72;
+	text-transform: uppercase;
+	font-size: 200%;
+	font-family: Helvetica;
+	font-weight: normal;
+	margin: 15px 0px 15px 0px;
+}
+
+.logo {
+	width:216px;
+	height: 37px;
+	margin-bottom: 20px;
+}
+
+.nav {
+	font-family: "Comic Sans MS";
+	padding: 45px 0px 0px 0px;
+	text-align: right;
+}
+.header {
+	background-image: url("images/bg-header.jpg");
+	height: 100px;
+	position: fixed;
+	z-index: 50;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+	 color: #b5c1ad;
+}
+
+.wrapper {
+	width: 960px;
+	background-image: url("images/bg-triangle.png");
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	background-position: 0px 0px;
+	text-align: left;
+}
+
+.main-story {
+	background-image: url("images/triangles.png");
+	height: 570px;
+	background-repeat: no-repeat;
+	background-position: 122px 142px;
+	border-bottom: 1px solid #fff;
+
+}
+
+.intro {
+	/*margin-top: 170px;*/
+	position: relative;
+	clear: left;
+	font-size: 90%;
+	line-height: 1.4em;
+	left: 720px;
+}
+
+.more-articles p {
+		padding: 5px 0px 15px 0px;
+		border-bottom: 1px solid #807c72;
+		font-size: 80%;
+}
+
+.more-articles p:last-child {
+	border-bottom: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.footer {
+		clear: both;
+		background: rgba(0, 0, 0, 0.2);
+		padding: 5px 10px;
+}
+
+.footer p{
+	font-family: Helvetica;
+	font-size: 80%;
+	text-align: right;
+	
+}
+
+.footer a {
+	color: #807c72;
+	padding: 0px 5px;
+}
+
+.date {
+	font-size: 80%;
+	color: #807c72;
+	font-family: Helvetica;
+}
